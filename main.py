@@ -27,7 +27,7 @@ def chars_dict_to_sorted_list(num_chars_dict):
         sorted_list.append({"char": ch, "num": num_chars_dict[ch]})
     sorted_list.sort(reverse=True, key=sort_on)
     return sorted_list
-`
+
 def get_content(file):
     with open(file) as f:
         return f.read()
